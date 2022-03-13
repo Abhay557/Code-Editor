@@ -13,5 +13,5 @@ Check out these links:
 
 * [Support](https://autocode.com)
 * [Join a Discord server](https://discord.gg/5V68EK8AeS)
-* [Report an issue](https://github.com/Abhay557/Code-Editor/issues/new)
-* [Contact the author](https://github.com/Abhay557)
+* [Report An issue](https://github.com/Abhay557/Code-Editor/issues/new)
+* [Contact The Author](https://github.com/Abhay557)
