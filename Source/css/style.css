@@ -1,0 +1,100 @@
+body, html{
+  height: 100%;
+}
+
+.container, .wrap, .output{
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+    height: 100%;
+}
+
+.wrap{
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #618793;
+}
+
+h1{
+  font-family: 'ubuntu', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+label{
+  font-family: 'ubuntu', sans-serif;
+  color: white;
+}
+
+label i{
+  margin-left: 5px;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  border: 2px solid #b0cad2;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  -webkit-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .7);
+  font-family: 'PT Mono', monospace;
+  color: #404f54;
+  background-color: rgba(0, 0, 0, .2);
+  color: white;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Verdana', sans-serif;
+}
+
+footer a{
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+.output{
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+
+iframe{
+  -moz-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+  -webkit-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+  box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
+}
