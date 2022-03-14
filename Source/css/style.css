@@ -98,3 +98,6 @@ iframe{
   -webkit-box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
   box-shadow:inset 2px 2px 8px rgba(0, 0, 0, .3);
 }
+.no-side-padding{
+  padding: 0 !important;
+}
