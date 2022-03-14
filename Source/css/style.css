@@ -1,33 +1,13 @@
-body, html{
-  height: 100%;
+.clearfix{
+  min-height: 100vh;
 }
 
-.container, .wrap, .output{
-  box-sizing: border-box;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    zoom: 1;
-    height: 100%;
+.clearfix-row{
+  min-height: 100vh;
 }
 
 .wrap{
-  width: 50%;
-  height: 100%;
-  float: left;
-  position: relative;
-  padding: 25px 15px;
-  background-color: #618793;
+  background-color: #4a626a;
 }
 
 h1{
@@ -85,12 +65,7 @@ footer a{
 
 footer a:hover{
   text-decoration: underline;
-}
-
-.output{
-  width: 50%;
-  float: right;
-  height: 100%;
+  color: #c9dbe1;
 }
 
 iframe{
